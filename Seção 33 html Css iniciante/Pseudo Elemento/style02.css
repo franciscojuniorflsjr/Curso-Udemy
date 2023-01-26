@@ -1,0 +1,62 @@
+
+/*
+p {
+    font-size: 24px;
+}
+
+
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line{
+    background: red;
+}
+
+p::selection {
+    background:black;
+    color: white;
+}
+/*
+
+
+especificidade
+empate
+style
+!important
+
+/* 
+ID /Classes, atributos e pseudo-class/ Elementos e pseudo-elementos
+1     0                                  0
+0     1                                  0
+1     1                                  0
+1     1                                  1
+2     1                                  1
+2     2                                  2
+*/
+
+#p{
+    background: red;
+}
+
+#p.p {
+    background: yellow;
+}
+
+
+p#p.p{
+    background: red; 
+}
+
+
+#b p#p.p{
+    background: rgb(71, 92, 141);
+}
+
+
+body#b.bclass p#p.p{
+    background: rgb(71, 92, 141);
+}

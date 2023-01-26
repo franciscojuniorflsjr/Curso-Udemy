@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .flex-container{
+        display: flex;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        background-color: yellow;
+        height: 640px;
+       
+       
+    }
+    
+    .flex-item {
+        width:33.33%;
+        color: white;
+        background-color: red;
+
+    }
+    
+    
+    /* 
+     flex-direction: "row" = escrito na vertical
+     flex-direction: "column" = horizontal colunas
+    
+    
+    
+    justify-content: = eixo vertical
+            "space between" alinhamento ultilizando o mesmo espaçamento
+    
+    
+    
+       align-items: responsavel pelo eixo perpeticular 
+             "flex-start" alinhado a esquerda / 
+             "center" alinhado ao centro /
+              "flex-end "  alinhado a direita. 
+    
+    */

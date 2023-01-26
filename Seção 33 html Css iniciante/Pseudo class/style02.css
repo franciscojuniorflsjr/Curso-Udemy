@@ -1,0 +1,20 @@
+.pai .lista li:last-child {
+    background: red;
+}
+input:required{
+    background-color: blueviolet;
+}
+
+p:not(.meio){
+    color: darkblue;
+}
+
+input:checked +p{
+    background-color: rgb(67, 115, 136);
+    color:white;
+}
+
+input:not(:checked)+p{
+    background-color: darkseagreen;
+    color:white;
+}

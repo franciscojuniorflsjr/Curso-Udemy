@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .flex-container{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        flex-flow: row nowrap;
+        background-color: yellow;
+        height: 800px;
+     }
+    
+    .flex-item {
+        width:100%;
+        color: white;
+        background-color: red;
+     
+    }
+    .flex-item:nth-child(1) {
+        order: 1 ;
+     
+    }
+
+   .flex-item:nth-child(2) {
+    order: 2 ;
+ 
+    }
+
+
+
+    /*
+    .flex-item:nth-child(3) {
+       align-self: flex-end;
+     
+    }
+    .flex-item:nth-child(4) {
+        align-self:center;
+      
+     }
+     .flex-item:nth-child(2) {
+        align-self:stretch;
+      
+     }
+     */
+
+    /*
+     
+Atalho Flex: 1 0 320
+
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 320px;
+
+        flex-grow = divide o espaço vazio igual 
+         para todos componentes.
+
+         flex-shrink = permitir que ele diminua 
+         (1) ou (0) nao permitindo
+
+         flex-basis = determina valor minino 
+         para ser distribuido apos o valor 
+        minino sera dividido igualmente a todos 
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios e inputs</title>
+    <style>
+            
+        label {
+        cursor: pointer;
+              
+    }
+
+
+</style>    
+
+    </head>
+
+    <body>
+
+    <form action="#" method="get"
+    target="_blank" autocomplete="off">
+     <p>O meu formulário </p>
+    <p>
+        <label for="nome"> Nome:</label>
+    <input type="text" id="nome" name="nome" 
+     placeholder="Seu nome" >
+    </p>
+
+    <p>
+        <label for="dev1">Sou um dev</label>
+    <input type="checkbox" id="dev1"
+    value="sim"checked><br>
+    <label for="dev2">Sou um dev</label>
+    <input type="checkbox" id="dev2"
+    value="sim"><br>
+    <label for="dev3">Sou um dev</label>
+    <input type="checkbox" id="dev3"
+    value="sim"><br>
+    </p>
+
+    <p> 
+        GÊNERO:<br>
+        <label for="masculino">masculino</label>
+    <input type="radio" id="masculino" name="genero"
+    value="masculino" checked><br>
+    <label for="feminino">feminino</label>
+    <input type="radio" id="feminino" name="genero"
+    value="feminino"><br>
+    <label for="outro_outra">Outro ou Outra</label>
+    <input type="radio" id="outro_outra" name="genero"
+    value="outro_outra"><br>
+    </p>
+    <p>
+        <label for="date">Date:</label>
+    <input type="date" id="date" name="date"
+    value="1989-07-12">
+    </p>
+    <p>
+        <label for="datetime-local">Date:</label>
+    <input type="datetime-local" id="datetime-local"    name="datetime-local" value="2023-01-18T19:00">
+    </p>
+
+    <p>
+        <label for="time">Date:</label>
+    <input type="time" id="time" name="time" value="19:00:03">
+    </p>
+    <p>
+        <label for="cor">Cor preferida:</label>
+    <input type="color" id="cor" name="cor" value="#ff0000">
+    </p>
+
+    <p>
+        <label for="email">Seu e-mail:</label>
+    <input type="email" id="email" name="email" placeholder="ex: email@email.com">
+    </p>
+
+    <p>
+        <label for="file">Sua foto:</label>
+    <input type="file" id="file" name="file"
+    accept=".png,.svg,image/*" multiple>
+    </p>
+
+    <p>
+        <label for="number">Number:</label>
+    <input type="number" id="number" name="number"      
+      min="10" max="50" step="5">
+    </p>
+
+    <p>
+        <label for="password">Sua senha:</label>
+    <input type="password" id="password"
+    name="password" placeholder="Digite sua senha">
+    </p>
+
+    
+    <p>
+        <label for="range">range</label>
+    <input type="range" id="range" name="range"
+    min="0" max="10" step="2">
+    </p>
+
+    <p>
+        <label for="url">Sua url:</label>
+    <input type="url" id="url" name="url" placeholder="URL">
+    </p>
+
+    <p>
+        <label for="search">Seu search:</label>
+    <input type="search" id="search" name="search" placeholder="search">
+    </p>
+
+<p>
+    <label for="select">Selecione alguma opção:</label>
+    <select id="select" name="select"> 
+        <optgroup label="Teste">
+        <option value="qualquer 1" label="label 1">     </option>
+        <option value="qualquer 1" label="label 2" disabled></option>
+       <option value="qualquer 1" label="label 3"selected></option>
+     <option value="qualquer 1" label="label 4"> 
+     </option>
+    </optgroup>
+    </select>
+
+</p>
+<p>
+    <label for="textarea">textarea:</label>
+    <textarea id="textarea" name="textarea" rows="3"
+    cols="9"></textarea>
+</p>
+
+    <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </p>
+
+
+</form>
+
+</body>
+</html>

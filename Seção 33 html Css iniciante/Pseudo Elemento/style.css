@@ -1,0 +1,18 @@
+/*
+E adicionado depois do elemento "conteudo"
+
+ul li::after{
+ content: '-';
+ background-color: red;
+ color: white;
+ display: block;
+}
+*/
+/* 
+E adicionado antes do conteudo */
+ul li::before{
+    content: '-';
+    background-color: red;
+    color: white;
+    display: block;
+   }
