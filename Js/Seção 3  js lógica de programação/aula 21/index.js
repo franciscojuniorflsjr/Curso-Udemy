@@ -1,5 +1,5 @@
 /* 
-Operarores de comparação
+Operadores de comparação
 > maior que
 => maior ou igual a 
 < menor que
