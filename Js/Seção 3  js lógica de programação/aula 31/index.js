@@ -1,8 +1,8 @@
-//const verdadeiro = true;
+const verdadeiro = true;
 
 // Let tem escopo de bloco {....bloco  }
 // Var só tem escopo de função
-/*
+
 
 let nome = 'Francisco'; // Criando
 var nome2 = 'Junior'    //Criando
@@ -20,4 +20,3 @@ if (verdadeiro) {
     }
 }
 console.log(nome, nome2)
-*/
