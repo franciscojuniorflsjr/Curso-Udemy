@@ -19,6 +19,7 @@ setTimeout(function()  {
 setTimeout(function() {
  console.log('Olá mundo!');
 }, 5000); // adicionar ápos 5 segundos msg
+
 /*
 function funcaoDoIntervalo(){
 console.log(mostraHora());
