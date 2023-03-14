@@ -1,3 +1,4 @@
+// Primeira aula
 // Tratando e lançando erros (try, catch, throw)
 
 function soma (x, y) {
